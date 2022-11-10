@@ -1,0 +1,45 @@
+.box {
+    width: 200px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.box1 {
+    background-color: aqua;
+    order: 10;
+}
+.box2 {
+    background-color: aquamarine;
+}
+.box3 {
+    background-color: royalblue;
+}
+.box4 {
+    background-color: purple;
+}
+.box5 {
+    background-color: black;
+}
+.box6 {
+    background-color: yellow;
+}
+.box7 {
+    background-color: orange;
+    order: -1;
+}
+.box8 {
+    background-color: red;
+}
+.box9 {
+    background-color: rgb(174, 174, 174);
+}
+.box10 {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+}
